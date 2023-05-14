@@ -1,0 +1,47 @@
+uuid: 6fc6cc44-7958-437a-a495-6e50f6363274
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.news
+    - taxonomy.vocabulary.category
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - filter
+    - image
+    - node
+    - taxonomy
+id: news_author
+label: 'News Author'
+weight: 4
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access content overview'
+  - 'access taxonomy overview'
+  - 'administer comment types'
+  - 'administer comments'
+  - 'administer filters'
+  - 'administer image styles'
+  - 'administer taxonomy'
+  - 'create news content'
+  - 'create terms in category'
+  - 'create terms in tags'
+  - 'delete any news content'
+  - 'delete own news content'
+  - 'delete terms in category'
+  - 'delete terms in tags'
+  - 'edit any news content'
+  - 'edit own comments'
+  - 'edit terms in category'
+  - 'edit terms in tags'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view news revisions'

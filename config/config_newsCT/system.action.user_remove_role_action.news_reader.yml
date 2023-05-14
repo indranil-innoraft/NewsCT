@@ -1,0 +1,14 @@
+uuid: cdf61070-1c7a-4720-ace4-0a2672737e2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.news_reader
+  module:
+    - user
+id: user_remove_role_action.news_reader
+label: 'Remove the News Reader role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: news_reader
