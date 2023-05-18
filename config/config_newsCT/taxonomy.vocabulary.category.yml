@@ -1,8 +1,0 @@
-uuid: 4bae3f49-fc5f-4860-a22e-bafec2157ae5
-langcode: en
-status: true
-dependencies: {  }
-name: Category
-vid: category
-description: 'Provided category related news article.'
-weight: 0
